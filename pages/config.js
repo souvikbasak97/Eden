@@ -18,7 +18,7 @@ const Config = () => {
           <Logo/>
           <Scroll page="3"/>
           <p className='text-3xl font-bold flex flex-grow m-3'>How are you planning to use Eden?</p>
-          <p className='text-gray-500 text-sm mt-2 mb-5 text-center'>We'll streamline your setup experience accordingly</p>
+          <p className='text-gray-500 text-sm mt-2 mb-5 text-center'>We&apos;ll streamline your setup experience accordingly</p>
           <div className='xl:w-1/4 sm:w-full md:w-1/2' >
             <div className='flex flex-grow'>
             <div className={'border-solid border-2 rounded-md shadow-lg h-40 w-5/12 p-5 m-3 hover:cursor-pointer '+
