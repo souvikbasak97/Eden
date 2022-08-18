@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Logo from '../components/Logo'
-import Scroll from '../components/scroll'
+import Scroll from '../components/Scroll'
 import Welcome from '../components/Welcome'
 
 

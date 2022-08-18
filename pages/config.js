@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import Logo from '../components/Logo'
-import Scroll from '../components/scroll'
+import Scroll from '../components/Scroll'
 import {FaUser} from 'react-icons/fa'
 import {MdGroups} from 'react-icons/md'
 import  Router, {useRouter } from 'next/router'

@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router'
 import React from 'react'
 import Logo from '../components/Logo'
-import Scroll from '../components/scroll'
+import Scroll from '../components/Scroll'
 import Image from 'next/image'
 const Success = () => {
     const router=useRouter();

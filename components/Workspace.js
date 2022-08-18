@@ -1,5 +1,5 @@
 import React from 'react'
-import Scroll from './scroll'
+import Scroll from './Scroll'
 import Image from 'next/image'
 import Router, { useRouter } from 'next/router'
 import { useRef } from 'react'
