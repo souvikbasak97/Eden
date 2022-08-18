@@ -4,7 +4,7 @@ import Scroll from '../components/scroll'
 import {FaUser} from 'react-icons/fa'
 import {MdGroups} from 'react-icons/md'
 import  Router, {useRouter } from 'next/router'
-const config = () => {
+const Config = () => {
   const [state,setState]=useState(1);
   const router=useRouter();
   const createAccount=(e)=>{
@@ -44,4 +44,4 @@ const config = () => {
   )
 }
 
-export default config
+export default Config

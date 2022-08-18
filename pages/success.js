@@ -3,7 +3,7 @@ import React from 'react'
 import Logo from '../components/Logo'
 import Scroll from '../components/scroll'
 import Image from 'next/image'
-const success = () => {
+const Success = () => {
     const router=useRouter();
     const name=router.query.name;
   return (
@@ -22,4 +22,4 @@ const success = () => {
   )
 }
 
-export default success
+export default Success

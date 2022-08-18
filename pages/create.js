@@ -1,7 +1,7 @@
 import React from 'react'
 import Workspace from '../components/Workspace'
 
-const create = () => {
+const Create = () => {
   return (
     <div>
         <Workspace/>
@@ -9,4 +9,4 @@ const create = () => {
   )
 }
 
-export default create
+export default Create
