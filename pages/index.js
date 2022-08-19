@@ -14,7 +14,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       
-      <main >
+      <main>
         <form className='flex flex-col items-center mt-10 sm: w-full'>
           <Logo/>
           <Scroll page="1"/>

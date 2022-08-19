@@ -12,7 +12,7 @@
 
 @layer components{
   .btn{
-    @apply bg-[#664DE5] p-3 rounded-md text-white w-full mt-5 hover:shadow-lg hover:ring-1 focus:outline-none
+    @apply bg-[#664DE5] p-3 rounded-md text-white w-full mt-5 hover:shadow-lg hover:ring-1 focus:outline-none 
   }
   .card{
     margin: 1rem;

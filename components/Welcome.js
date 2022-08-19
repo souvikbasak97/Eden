@@ -19,7 +19,7 @@ const Welcome = () => {
         <input type="text" placeholder='Steve Jobs' className='focus:outline-none w-full mt-3 hover:shadow-lg px-3 rounded-md border border-gray-200 py-2 focus-within:shadow-lg' />
         <p className='text-gray-500 font-bold mt-5'>Display Name</p>
         <input type="text" placeholder='Steve' className='focus:outline-none w-full mt-3 hover:shadow-lg px-3 rounded-md border border-gray-200 py-2 focus-within:shadow-lg' ref={inputRef} />
-        <button className='btn' onClick={create}>Create Workspace</button>
+        <button className='btn md:w-full' onClick={create}>Create Workspace</button>
     </div>
 
   )
