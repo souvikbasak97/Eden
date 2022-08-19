@@ -9,6 +9,8 @@ npm run dev
 # or
 yarn dev
 ```
+# Live Link
+https://eden-sbasak97-outlookcom.vercel.app/
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
