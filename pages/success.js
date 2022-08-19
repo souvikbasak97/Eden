@@ -2,6 +2,7 @@ import { useRouter } from 'next/router'
 import React from 'react'
 import Logo from '../components/Logo'
 import Scroll from '../components/Scroll'
+import {AiFillCheckCircle} from 'react-icons/ai'
 import Image from 'next/image'
 const Success = () => {
     const router=useRouter();
@@ -11,7 +12,8 @@ const Success = () => {
         <form className='flex flex-col items-center mt-10'>
             <Logo/>
             <Scroll page="4"/>
-            <Image className='m-5' src='/success.jpg' alt='Success' height={80} width={80}/>
+            <AiFillCheckCircle size={100} color='#664DE5'/>
+            {/* <Image className='m-5' src='/success.jpg' alt='Success' height={80} width={80}/> */}
             <h1 className="font-bold text-3xl mt-12">Congratulations, {name}!</h1>
             <p className='text-gray-500 font-bold mt-10 text-sm'>You have completed onboarding,you can start using the Eden!</p>
             <div className='xl:w-1/4 sm:w-full md:w-1/2' >
